@@ -17,6 +17,13 @@ To run Paprika, follow these steps:
    ```
 
 ## Program Structure
+
+### Electives Advisory System
+Paprika considers various factors such as the student's name, branch, year, career goals, field of interest, completion of a BTP (Bachelor Thesis Project), and a list of courses already taken.
+- Using advanced techniques such as recursion, backtracking, variable binding, and list operations, the system suggests a tailored list of courses that the student can consider. The knowledge base stores a list of recommended courses for specific fields and their prerequisites.
+- The main technical components of this system include capturing user inputs, processing and analyzing the data, leveraging recursion and backtracking algorithms to generate course suggestions, and utilizing a knowledge base to store course recommendations and prerequisites.
+
+### NLP pipeline
 Paprika incorporates a natural language processing pipeline, leveraging the Natural Language Toolkit (NLTK), to extract meaningful information from user input. The pipeline processes the natural language input and generates a list of root words. These root words are then searched for keywords relevant to the specified search space. The structure of the natural language processing pipeline is as follows:
 
 1. Tokenization: The input text is divided into individual tokens.
@@ -28,3 +35,7 @@ Paprika incorporates a natural language processing pipeline, leveraging the Natu
 	<img src="https://i.imgur.com/x8TKRaS.png">
     <p><i>Figure: Structure of the natural language pipeline used</i></p>
 </div>
+
+Note: The system assumes the student is in the 3rd year or above, as the advised courses are typically available to students during the 3rd and 4th years.
+
+
